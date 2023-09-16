@@ -1,0 +1,139 @@
+/* Nav bar */
+.nav-link{
+    color: rgb(255, 255, 255)!important;
+}
+.navbarScroll.navbarDark {
+    background-color: #000000;
+}
+/* Nav bar end */
+
+
+/* Front page */
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#header h1{
+    font-size: 5rem;
+    color: white!important;
+}
+
+#header p{
+    color: white;
+    font-size: x-large;
+}
+/* Front page end */
+
+
+/* Front page animation */
+.gradient-background {
+    background: linear-gradient(357deg,  #124a8a,#7ed2f9, #068FFF,#000000);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 18s ease infinite;
+    -moz-animation: AnimationName 18s ease infinite;
+    animation: AnimationName 18s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
+}
+/* Front page animation end */
+
+
+/* About me */
+.imageAboutPage {
+    width: 100%;
+}
+/* About me end */
+
+
+/* Services */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesText:hover {
+    border: 8px double #1ba6e7;
+}
+.card-title {
+    text-align: center;
+}
+#services{
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+/* Services end */
+
+
+/* Work experience */
+.weContent > .card-body{
+    height: 280px;
+    cursor: pointer;
+}
+.weContent:hover{
+    border: 8px double #1ba6e7;
+}
+#work-experience{
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+/* Work experience end */
+
+/* Certifications */
+.certifications > .card-body{
+    height: 280px;
+    cursor: pointer;
+}
+.certifications:hover{
+    border: 8px double #1ba6e7;
+}
+#certifications{
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+/* Certifications end */
+
+/* Others */
+.othersText > .card-body{
+    height: 280px;
+     cursor: pointer;
+}
+.othersText:hover{
+    border: 8px double #1ba6e7;
+}
+#others{
+    margin-top: 3rem;
+    padding-top: 3rem;
+}
+/* Others end */
+
+/* Contact */
+#footer{
+    display: flex;
+    height: 30vh;
+}
+#footer p{
+    color: white;
+    font-size: large;
+}
+#footer {
+    padding-bottom: 4rem;
+    margin-top: 3rem;
+    padding-top: 4rem;
+}
+/* Contact end */
